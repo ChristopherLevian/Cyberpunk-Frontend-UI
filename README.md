@@ -1,5 +1,5 @@
 # Cyberpunk Frontend
-An adaptive custom cyberpunk frontend
+An adaptive custom cyberpunk frontend - Created for a client that decided it was a good idea to attempt to scam me 
 Resolution: 2001 - 2800 
 
 ![image](https://user-images.githubusercontent.com/97268541/156478952-cce61438-0032-48a5-a131-46e77bf70b97.png)
