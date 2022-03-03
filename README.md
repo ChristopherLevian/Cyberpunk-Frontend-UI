@@ -1,5 +1,5 @@
 # Cyberpunk Frontend
-An adaptive custom cyberpunk frontend - Created for a dex-based crypto project however never provided, therefore it's free to use for your own work.
+An adaptive custom cyberpunk frontend - Created for a dex-based crypto project
 Resolution: 2001 - 2800 
 
 ![image](https://user-images.githubusercontent.com/97268541/156478952-cce61438-0032-48a5-a131-46e77bf70b97.png)
