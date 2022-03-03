@@ -1,0 +1,1489 @@
+
+    @media screen
+    and (min-device-width: 768px) 
+    and (max-device-width: 800px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      
+
+#mobilenav, #NAVBARMOBILE{
+  display: none;
+}
+#mobiledapp{
+  display:none;
+}
+#mobilefooter{
+  display: none;
+}
+  :root {
+    --gap-horizontal: 10px;
+    --gap-vertical: 5px;
+    --time-anim: 4s;
+    --delay-anim: 2s;
+    --blend-mode-1: none;
+    --blend-color-1: transparent;
+    --yellow-color: purple;
+    --border-color: #000000;
+  }
+
+  #aletheo3 h1{
+    font-size: 24px;
+display: inline;
+border: 1px solid rgb(225, 0, 255);
+color: rgb(247, 0, 255);
+font-family: PhageRough;
+position: absolute;
+left: 25%;
+top: 210px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #070000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 0, 234);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 0, 255, 0.65);
+  }
+
+
+        html{
+
+          width: 800px;
+          min-width: ;
+          max-width: 800px;
+       overflow-x: auto;
+          height: 3000px;
+          }
+          
+           body{  background: url("../images/bots888.gif"); 
+            height: 100%;
+
+           background-attachment: fixed;
+          background-size: 140%;
+          background-position: center;
+          background-repeat: repeat;
+          min-width: ;
+          max-width: ;
+
+          }
+
+         
+          *{
+            box-sizing: border-box;
+          }
+       
+#uppernav #ONEx{
+  
+width: 35px;
+top: 18px;
+left: 110px;
+position: absolute;
+min-width: ;
+max-width: ;
+}
+#uppernav #TWOx{
+  width: 120px;
+  left: 374px;
+  position: absolute;
+  top: 10px;
+  min-width: ;
+  max-width: ;
+}
+#uppernav #THREEx{
+  width: 85px;
+  left: 690px;
+  position: absolute;
+  top: 8px;
+  min-width: ;
+  max-width: ;
+}
+#uppernav #FOURx{
+  width: 80px;
+  left: 554px;
+  position: absolute;
+  top: 8px;
+  min-width: ;
+  max-width: ;
+}
+#uppernav #FIVEx{
+  width: 40px;
+  left: 255px;
+  position: absolute;
+  top: 13px;
+  min-width: ;
+  max-width: ;
+}
+    #uppernav{
+      overflow:hidden;
+      position: fixed;
+      -webkit-animation: scale-up-ver-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-ver-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    display: block;
+    /* background: rgba(0, 0, 0, 0.411); */
+    background: url("../images/samuraixd.jpg"); 
+    min-width: 120px;
+     background-attachment: bottom;
+    top: -6px;
+    max-width: 140%;
+    max-height: 1050px;
+    min-width: ;
+    background-size: cover;
+ 
+    width: 120%;
+    height: 80px;
+    left: -40px;
+    opacity: ;
+    }
+  
+    
+     #uppernav .img{ /* UPPER PART*/
+       position: absolute;
+      right: 450px;
+    
+       display: block;
+       width:82px;
+       height: 10px;
+       max-width: 880px;
+    max-height: 800px;
+    top: 5px;
+    background: rgb(255, 0, 255);
+    opacity: 0.9;
+     filter: drop-shadow(0 0 0.75rem crimson); 
+     -webkit-clip-path: polygon(0 0, 0 1%, 30% 1%, 40% 1%, 41% 6%, 55% 6%, 56% 1%, 100% 1%, 100% 0, 90% 0, 80% 0, 9% 0);
+    clip-path: polygon(0 0, 0 1%, 30% 1%, 40% 1%, 41% 6%, 55% 6%, 56% 1%, 100% 1%, 100% 0, 90% 0, 80% 0, 9% 0);
+  
+    min-width: ;
+    max-width: ;
+  }
+   
+    #uppernav .img3{ /* \----------*/
+      position: absolute;
+      
+      left: -120px;
+      top: 60px;
+      max-width:4000px;
+    max-height: 140px;
+      display: block;
+       width:880px;
+       height: 80px;
+           z-index: 100;
+           background: rgb(255, 0, 255);
+
+       opacity: 1;
+       /* play with this it makes it look awesome */
+     filter: drop-shadow(0 0 40rem purple); 
+ 
+     clip-path: polygon(23% 20%, 100% 21%, 100% 21%, 6% 23%, 2% 0, 6% 21%);
+     min-width: ;
+     max-width: ;
+     transform: rotateY(180deg);
+    }
+    #uppernav .img4{ /* ----------/ */
+      position: absolute;
+      left: 147px;
+      max-width:4240px;
+    max-height: 140px;
+    top: 60px;
+    display: block;
+      width:880px;
+      height: 80px;
+       opacity: 1;
+       background: rgb(255, 0, 255);
+       z-index: 100;
+       filter: drop-shadow(0 0 40rem purple); 
+   
+    clip-path: polygon(23% 20%, 100% 21%, 100% 21%, 6% 23%, 2% 0, 6% 21%);
+    min-width: ;
+          max-width: ;
+    }
+     #uppernav .img5{ /* -----------\*/
+      position: absolute;
+      z-index: 100;
+      background: rgb(255, 0, 255);
+
+      left: -700px;
+      top: 10px;
+      display: block;
+       width:880px;
+       height: 80px;
+       max-width: 4350px;
+       max-height: 100px;;
+       opacity: 0.8;
+ 
+     clip-path: polygon(25% 0%, 100% 0, 100% 3%, 3% 3%, 0 32%, 3% 0);
+     min-width: ;
+     max-width: ;
+    transform: rotateY(180deg);
+    }
+    #uppernav .img6{ /* /========== */
+      z-index: 20;
+      background: rgb(255, 0, 255);
+
+      position: absolute;
+      left: 750px;
+      top: 10px;
+      display: block;
+       width:880px;
+       height: 80px;
+       max-width: 4350px;
+       max-height: 600px;
+       opacity: 0.8;
+       filter: drop-shadow(0 0 40rem purple); 
+     -webkit-clip-path: polygon(100% 0, 100% 0, 14% 4%, 0 14%, 14% 0);
+     z-index: 100;
+     min-width: ;
+     max-width: ;
+     clip-path: polygon(25% 0%, 100% 0, 100% 3%, 3% 3%, 0 32%, 3% 0);
+
+    } 
+
+   
+    
+  
+
+
+    .cyberpunk {
+      min-width: ;
+      max-width: ;
+      padding: 5px;
+      top: 100px;
+      left: 40px;
+      position: relative;
+      font-size: 1rem;
+      color: white;
+      border: 30px solid var(--yellow-color);
+      border-right: 5px solid var(--yellow-color);
+      border-left: 5px solid var(--yellow-color);
+      border-bottom: 20px solid var(--yellow-color);
+      background-color: #000;
+      width: 640px;
+      height: 100px;
+      clip-path: polygon(-10px 25px, 26px 0px, calc(60% - 25px) 0px, 60% 25px, 100% 25px, 100% calc(100% - 10px), calc(100% - 15px) calc(100% - 10px), calc(80% - 10px) calc(100% - 10px), calc(80% - 15px) 100%, 80px calc(100% - 0px), 65px calc(100% - 15px), 0% calc(100% - 15px));
+  margin-bottom: 1000px; 
+  }
+    .cyberpunk.inverse {
+      border: none;
+      padding: 40px 15px 30px;
+  color: #00E6F6;
+      background-color: var(--yellow-color);
+      border-right: 2px solid var(--border-color);
+    }
+    .dotted, .dotted:before, .dotted:after {
+      background: var(--yellow-color);
+      background-image: radial-gradient(#00000021 1px, transparent 0);
+      background-size: 15px 5px;
+      background-position: -13px -3px;
+    }
+    /*Small number style on the right side of the text box*/
+    .cyberpunk:before {
+      content: "P-14";
+      display: block;
+      position: absolute;
+      bottom: -12px;
+      right: 25px;
+      padding: 0px 2px 0px 2px;
+      font-size: 0.6rem;
+      line-height: 0.6rem;
+      color: #000;
+      background-color: var(--yellow-color);
+      border-left: 2px solid var(--border-color);
+    }
+    .cyberpunk.inverse:before {
+      content: "T-71";
+      right: 90px;
+      bottom: 9px;
+    }
+    .cyberpunk.inverse:before, .cyberpunk:before {
+      background-color: #000;
+      color: var(--yellow-color);
+    }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    .hero {
+      min-width: ;
+      max-width: ;
+      font-size: clamp(10px, 10vw, 80px);
+      line-height: 1;
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      z-index: 2;
+      letter-spacing: 20px;
+    font-family: PhageRough;
+      /* Bright things in dark environments usually cast that light, giving off a glow */
+      filter: drop-shadow(0 0 0.75rem rgb(255, 0, 221));      
+  }
+    
+    .demo {
+      height: 100px;
+      min-width: ;
+      max-width: ;
+      background: rgb(0, 255, 242);
+    }
+    
+    .layers {
+      position: relative;
+    }
+    
+    .layers::before,
+    .layers::after {
+      content: attr(data-text);
+      position: absolute;
+      width: 110%;
+      z-index: -1;
+    }
+    
+    .layers::before {
+      top: 10px;
+      left: 15px;
+      color: #28dae0;
+    }
+    
+    .layers::after {
+      top: 5px;
+      left: -10px;
+      color: #1bc7fb;
+    }
+    
+
+    .paths {
+      animation: paths 5s step-end infinite;
+    }
+    
+    
+    
+    .opacity {
+      animation: opacity 5s step-end infinite;
+    }
+    
+    
+    .font {
+      animation: font 7s step-end infinite;
+    }
+    
+    
+
+
+
+    
+  .layers {
+    position: relative;
+  }
+  
+  .layers::before,
+  .layers::after {
+    content: attr(data-text);
+    position: absolute;
+    width: 110%;
+    z-index: -1;
+  }
+  
+  .layers::before {
+    top: 10px;
+    left: 15px;
+    color: #aa6000;
+  }
+  
+  .layers::after {
+    top: 5px;
+    left: -10px;
+    color: #1bc7fb;
+  }
+
+  .glitch span {
+    animation: paths 5s step-end infinite;
+  }
+  
+  .glitch::before {
+    animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+      font 8s step-end infinite, movement 10s step-end infinite;
+  }
+  
+  .glitch::after {
+    animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+      font 7s step-end infinite, movement 8s step-end infinite;
+  }
+  
+  .hero-container {
+    position: absolute;
+    padding: 200px 10px;
+    top: -120px;
+    right: 50px;
+    text-align: center;
+  }
+  
+  .environment {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+   z-index: -50;
+   padding: 10px;
+    bottom: 0;
+    opacity: 0.9;
+    filter: blur(0px);
+    background: transparent;
+
+    repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+  .text-flicker-out-glow {
+    -webkit-animation: text-flicker-out-glow 2.5s linear both;
+        animation: text-flicker-out-glow 2.5s linear both;
+    }
+
+
+    :root {
+      --gap-horizontal: 10px;
+      --gap-vertical: 5px;
+      --time-anim: 4s;
+      --delay-anim: 2s;
+      --blend-mode-1: none;
+      --blend-color-1: transparent;
+      --yellow-color: purple;
+      --border-color: #000000;
+    }
+  
+
+    #thedapp{
+      position: absolute;
+      display: flex;
+      flex-direction: row;  /* | row-reverse | column | column-reverse; */
+      justify-content:  space-around;
+      align-items: normal;
+      align-content:  space-evenly;
+   gap: 10px 20px; /* row-gap column gap */
+   row-gap: 20px;
+   column-gap: 20px;
+   width:880px;
+      height: 1150px;
+      left: 0px;
+ 
+      top: 1394px;
+ 
+      border: 0px solid white;
+      filter:drop-shadow();
+      padding: 45px;
+ z-index: 1000000;
+ background: linear-gradient(0deg, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 100%);
+  /* background: black; 
+  background: url("../images/x999.gif"); 
+  background-repeat: repeat; */
+ opacity: 1;
+      border-radius: 1px;
+     
+      clip-path: polygon(0 23%, 0 0, 17% 0, 19% 3%, 31% 3%, 33% 9%, 50% 9%, 68% 9%, 70% 3%, 82% 3%, 84% 0, 100% 0, 100% 22%, 99% 26%, 99% 68%, 100% 72%, 100% 100%, 83% 100%, 82% 97%, 18% 97%, 17% 100%, 0 100%, 0 72%, 1% 69%, 1% 26%);
+      -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           min-width: ;
+           max-width: ;
+          }
+ 
+     #thedapp3{ /*eksw */
+      position: absolute;
+      display: flex;
+      flex-direction: row;  /* | row-reverse | column | column-reverse; */
+      justify-content:  space-around;
+      align-items: normal;
+      align-content:  space-evenly;
+   gap: 10px 20px; /* row-gap column gap */
+   row-gap: 10px;
+   column-gap: 10px;
+   width:880px;
+
+   height: 1150px;
+   left: 0px;
+ 
+      top: 1376px;
+      min-width: ;
+      max-width: ;
+      filter:drop-shadow();
+      padding: 45px;
+ z-index: 100000;
+ 
+      border-radius: 1px;
+     
+      background: linear-gradient(0deg, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 100%);
+ 
+      clip-path: polygon(0 23%, 0 0, 17% 0, 19% 3%, 31% 3%, 33% 9%, 50% 9%, 68% 9%, 70% 3%, 82% 3%, 84% 0, 100% 0, 100% 22%, 99% 26%, 99% 68%, 100% 72%, 100% 100%, 83% 100%, 82% 97%, 18% 97%, 17% 100%, 0 100%, 0 72%, 1% 69%, 1% 26%);
+      -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     }
+ 
+   
+     #thedapp5{ /*   mesa */
+      position: absolute;
+      display: flex;
+      flex-direction: row;  /* | row-reverse | column | column-reverse; */
+      justify-content:  space-around;
+      align-items: normal;
+      align-content:  space-evenly;
+   gap: 10px 20px; /* row-gap column gap */
+   row-gap: 10px;
+   column-gap: 10px;
+   width:880px;
+   height: 1150px;
+   left: 0px;
+ 
+      top: 1388px;
+ 
+      opacity: 0.4;
+      min-width: ;
+      max-width: ;
+ 
+      background: rgb(255, 0, 212);
+      z-index: 1000000;
+
+ clip-path: polygon(0 23%, 0 0, 17% 0, 19% 3%, 31% 3%, 33% 9%, 68% 9%, 68% 9%, 70% 3%, 82% 3%, 84% 0, 100% 0, 100% 22%, 99% 26%, 99% 68%, 100% 72%, 100% 100%, 83% 100%, 82% 97%, 18% 97%, 17% 100%, 0 100%, 0 72%, 1% 69%, 1% 26%);
+ -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ 
+     }
+   
+ 
+     #theapps{
+       display:flex;
+       opacity: 1;
+     }
+ 
+ 
+     .newone{
+      width: 550px;
+      height: 580px;
+      padding-left: 10px;
+      position: absolute;
+      display: block;
+      background: ;
+      top: 60px;
+      right: 10px;
+    
+    }
+  
+    #extensionsX{
+    width: 400px;
+   top: 30px;
+   height: 70px;
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;  
+   
+    }
+    
+    #extensionsXX{
+    width: 400px;
+   top: 140px;
+   height: 70px;
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;  
+    }
+    
+    #extensionsXXX{
+    width: 400px;
+   top: 260px;
+   height: 70px;
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;  
+    }
+    #rewardsx{
+    width: 400px;
+  
+    height: 70px;
+  
+  
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;
+    top: 360px;
+    }
+    #exchangesx{
+    width: 400px;
+  
+    height: 70px;
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;  
+    top: 460px;
+    }
+    .Shapex{
+      top: 0px;
+      width: 400px;
+      height: 70px;
+      display:block;
+      background: rgba(0, 0, 0, 0);
+      position: absolute;
+    }
+    .upperxx{
+      width: 400px;
+     top: 3PX;
+      left: -18px;
+      position: absolute;
+      height: 80px;
+      background: rgb(255, 0, 234);
+      clip-path: polygon(5% 2%, 74% 3%, 73% 4%, 6% 5%, 6% 48%, 5% 44%);
+       }
+    .upper2xx{
+      width: 400px;
+      top: 0px;
+      position: absolute;
+      height: 80px;
+      background: rgb(255, 0, 234);
+  
+      clip-path: polygon(92% 3%, 94% 0, 100% 0, 100% 10%, 100% 100%, 99% 100%, 99% 10%, 84% 10%, 63% 10%, 0 9%, 0 8%, 66% 8%, 72% 0, 80% 0, 82% 3%);
+    }
+    .downxx{
+      width: 280px;
+      position: absolute;
+     top: 0px;
+      height: 80px;
+      background: rgb(225, 0, 255);
+      opacity: 1;
+      clip-path: polygon(73% 94%, 87% 95%, 92% 95%, 92% 76%, 92% 96%, 74% 96%, 53% 95%, 27% 95%, 25% 100%, 14% 100%, 12% 95%, 4% 94%, 2% 100%, 0 100%, 0 93%);
+    }
+     .middlex{
+      width: 280px;
+      position: absolute;
+     top: 24px;
+      height: 40px;
+      background: rgb(225, 0, 255);
+      opacity: 0.5;
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .wordsxx{
+      
+    }
+    .imagesxx{
+      
+    }
+    .linesxx{
+      
+    }
+    .class{
+      
+    }
+    #timex{
+  width: 400px;
+  height: 80px;
+  top: 300px;
+  right: 300px;
+  position: absolute;
+  display: block;
+  color: rgb(247, 0, 255);
+    }
+    #timex h3{
+      font-size: 40px;
+      font-family: Cyber;
+      Color: rgb(217, 0, 255);
+    }
+    #datex{
+      width: 420px;
+  height: 100px;
+  position: absolute;
+  display: block;
+  color: rgb(247, 0, 255);
+  left: 80px;
+    }
+  
+    #datex h3{
+      font-family: Cyber;
+      Font-size: 30px;
+      color: rgb(247, 0, 255);
+    }
+    .arrowxx img{
+      width: 80px;
+      top: 12px;
+      position: absolute;
+      left: 200px;
+    }
+    #imageXXX img{
+    position: absolute;
+    width: 80px;
+    height: 500px;
+    left: 10px;
+    top: 80px;
+    }
+  
+    #imageXX img{
+      position: absolute;
+      width: 60px;
+      top: 390px;
+      left: 7px;
+      height: 40px;
+      transform: rotateZ(90deg);
+
+    }
+    #imageXXXX img{
+      position: absolute;
+      width: 10px;
+      top: 300px;
+      left: 6px;
+      transform: rotateY(180deg);
+      display: none;
+
+    }
+    #imageXXXXX img{
+  opacity: 0.5;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 70px;
+  top: 25px;
+  transform: rotateY(180deg);
+  }
+    .imagesxx img{
+      width: 60px;
+      position: absolute;
+     right: 20px;
+     top: 15px;
+     border: 1px solid rgb(255, 0, 255);
+     padding: 8px;
+  
+    }
+  
+    .wordsxx a{
+      font-size: 18px;
+      position: absolute;
+      top: 34px;
+      left: 25px;
+      font-family: "100";
+      letter-spacing: 2px;
+      color: white;
+      
+    } 
+    #connector{
+    left: 100px;
+  width: 60px;
+  height: 250px;
+  position: absolute;
+  background: rgb(255, 0, 234);
+  clip-path: polygon(39% 31%, 0 31%, 0 32%, 39% 33%, 45% 1%, 100% 1%, 100% 0, 45% 0);
+  top: 470PX;
+  opacity: 0.6;
+  }
+  
+  #connector1{
+    left: 80px;
+  width: 70px;
+  height: 280px;
+  position: absolute;
+  background: rgb(255, 0, 234);
+  clip-path: polygon(43% 22%, 28% 22%, 28% 21%, 43% 21%, 62% 99%, 100% 99%, 100% 100%, 62% 100%);
+  top: 280PX;
+  }
+  
+  #comparison img{
+    position: absolute;
+    width: 370px;
+    height: 60px;
+    left: 240px;
+    top: 35px;
+    }
+     #line1{
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 310px;
+    top: 615px; 
+    background: rgb(255, 0, 255);
+  clip-path: polygon(18% 50%, 19% 50%, 100% 51%, 100% 52%, 19% 51%, 1% 83%, 1% 83%);
+  
+  transform: rotateZ(180deg);
+    }
+     #line2{
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 415px;
+    top: 617px; 
+    background: rgb(255, 0, 255);
+    clip-path: polygon(18% 50%, 19% 50%, 100% 51%, 100% 52%, 19% 51%, 1% 83%, 1% 83%);
+  
+  
+  
+    }
+    #AVALACHEICON img{
+      width: 70px;
+      height: 60px;
+      top: 30px;
+      border: 1px solid rgb(255, 0, 255);
+      order: 6;
+      position: absolute;
+      left:600px;
+      align-self: auto;
+    flex-shrink: 3;
+    flex-grow: 4;  }
+  
+  #AVALACHE .LETicon img{
+    width: 70px;
+  height: 70px;
+  top: 30px;
+  border: 1px solid rgb(255, 0, 255);
+  
+  left: 5px;
+  position: absolute;
+  order: 2;
+      align-self: auto;
+    flex-shrink: 3;
+    flex-grow: 4;
+  }
+    #AVALACHE .LETpriceA{
+      order: 3;
+      align-self: auto;
+    flex-shrink: 3;
+    flex-grow: 4;
+    }
+    .LETpriceA a{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    
+    }
+  
+    .LETpriceA h2{
+      font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+  
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    }
+    #AVALACHE .LETliquidityA a{
+        font-family: Cyber;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 160px;
+    padding-left: 10px;
+    border-width: 6px;
+    left: 400px;
+    }
+  
+    #AVALACHE .LETliquidityA h3{
+      font-family: Cyber;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    padding-left: 10px;
+    border-width: 6px;
+    left: 320px;
+    }
+    #AVALACHE .UPPRICEA img{
+      position: absolute;
+    left: 190px;
+    top: 100px;
+    width: 60px;
+    }
+    #AVALACHE .DOWNPRICEA img{
+      position: absolute;
+    left: 90px;
+    top: 100px;
+    width: 60px;
+   }
+    .UPPRICEA a{
+  font-size: 28px;
+  font-family: Glitched;
+  color: white;
+  position: absolute;
+  left: 250px;
+  top: 110px;
+  }
+  
+  .DOWNPRICEA a{
+    font-size: 28px;
+  font-family: Glitched;
+  color: white;
+  position: absolute;
+  left: 15px;
+  top: 110px;
+ }
+ #comparison2 img{
+  position: absolute;
+  width: 370px;
+  height: 60px;
+  left: 240px;
+  top: 35px;
+  }
+   #line3{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  left: 295px;
+  top: 843px; 
+  background: rgb(255, 0, 255);
+clip-path: polygon(18% 50%, 19% 50%, 100% 51%, 100% 52%, 19% 51%, 1% 83%, 1% 83%);
+
+transform: rotateZ(180deg);
+  }
+   #line4{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  left: 395px;
+  top: 845px; 
+  background: rgb(255, 0, 255);
+  clip-path: polygon(18% 50%, 19% 50%, 100% 51%, 100% 52%, 19% 51%, 1% 83%, 1% 83%);
+
+
+
+  }
+  #FANTOMICON img{
+    width: 70px;
+    height: 60px;
+    order: 6;
+    position: absolute;
+    left:600px;
+    top: 30px;
+    align-self: auto;
+  flex-shrink: 3;
+  flex-grow: 4;  
+  border: 1px solid rgb(255, 0, 255);
+
+}
+
+#FANTOM .LETicon img{
+  width: 70px;
+height: 70px;
+left: 5px;
+top: 30px;
+border: 1px solid rgb(255, 0, 255);
+
+order: 2;
+position: absolute;
+  flex-shrink: 3;
+  flex-grow: 4;
+}
+  #FANTOM .LETpriceF{
+    order: 3;
+    align-self: auto;
+  flex-shrink: 3;
+  flex-grow: 4;
+  }
+  .LETpriceF a{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  
+  }
+
+  .LETpriceF h2{
+    font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  }
+  #FANTOM .LETliquidityF a{
+      font-family: Cyber;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 160px;
+  padding-left: 10px;
+  border-width: 6px;
+  left: 400px;
+ 
+
+  }
+  #FANTOM .LETliquidityF h3{
+       font-family: Cyber;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 90px;
+  padding-left: 10px;
+  border-width: 6px;
+  left: 320px;
+ }
+  #FANTOM .UPPRICEF img{
+    position: absolute;
+  left: 190px;
+  top: 100px;
+  width: 60px;
+  }
+  #FANTOM .DOWNPRICEF img{
+    position: absolute;
+  left: 90px;
+  top: 100px;
+  width: 60px;
+ }
+  .UPPRICEF a{
+font-size: 28px;
+font-family: Glitched;
+color: white;
+position: absolute;
+left: 250px;
+top: 110px;
+
+}
+
+.DOWNPRICEF a{
+  font-size: 28px;
+font-family: Glitched;
+color: white;
+position: absolute;
+left: 15px;
+top: 110px;
+}
+#AVALACHE{
+  position: absolute;
+  display: inline-block;
+
+background: rgba(255, 0, 255, 0.109);
+border: 1px solid rgb(255, 0, 255);
+
+  width: 700px;
+  height: 200px;
+  left: -240px;
+  top: 535px;
+  }
+
+  #FANTOM{
+    position: absolute;
+    display:block;
+  align-items: baseline;
+  align-content: flex-start;
+  background: rgba(255, 0, 255, 0.109);
+border: 1px solid rgb(255, 0, 255);
+  gap: 10px;
+gap: 10px 20px; /* row-gap column gap */
+row-gap: 10px;
+column-gap: 20px;
+justify-content: baseline;
+flex-flow: ;
+flex-direction: row;
+
+flex-wrap: nowrap;
+  width: 700px;
+  height: 200px;
+  left: 80px;
+  top: 814px;
+  }
+  #extensionsX:hover, #extensionsXX:hover .Shapex, #extensionsXXX:hover, #rewardsx:hover, #exchangesx:hover{
+    transform:  scaleX(1.5);
+  }
+ 
+ 
+ #dapp4 .content1{
+ 
+ }
+ 
+ #dapp4 .content2{
+ 
+ }
+ #dapp4 .content3{
+ 
+ }
+ #dapp4 .content4{
+ 
+ }
+ button, button::after {
+   width: 200px;
+   
+   height: 86px;
+   font-size: 40px;
+   background: linear-gradient(45deg, transparent 5%, #ff01ea 5%);
+   border: 0;
+   color: #fff;
+   letter-spacing: 3px;
+   line-height: 88px;
+   box-shadow: 6px 0px 0px #00E6F6;
+   outline: transparent;
+   position: relative;
+ }
+ button::after {
+   --slice-0: inset(50% 50% 50% 50%);
+   --slice-1: inset(80% -6px 0 0);
+   --slice-2: inset(50% -6px 30% 0);
+   --slice-3: inset(10% -6px 85% 0);
+   --slice-4: inset(40% -6px 43% 0);
+   --slice-5: inset(80% -6px 5% 0);
+   Content: 'join now';
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #ff00ff 5%);
+   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+   clip-path: var(--slice-0);
+ }
+ button:hover::after {
+   animation: 1s glitch;
+   animation-timing-function: steps(2, end);
+ }
+
+
+ #aletheo2 h1{
+  position: absolute;
+  border: 2px solid rgb(255,0,255);
+  width: 420px;
+  height: 40px;
+  top: 160px;
+  left: 130px;
+  z-index: 100000;
+  display: block;
+}
+
+
+#imgs{
+  width: 80px;
+  z-index: 1000000000000000000000;
+  display: block;
+    }
+
+
+
+    .DOCUMENTS, .COMMUNITY, .ABOUT, .STAKE, .ALETHEO{
+      display: inline-block;
+      text-decoration: none;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 18px;
+      padding-right:  18px;
+      font-size: 10px;
+      margin: 10px;
+      font-family: Noize;
+      position: fixed;
+
+      opacity: 1; 
+    color: rgb(255, 0, 255);
+    
+    position: absolute;
+    letter-spacing: 6px;
+    }
+    
+    .DOCUMENTS:after, .COMMUNITY:after, .ABOUT:after, .STAKE:after, .ALETHEO:after{
+      content: '';
+      position: fixed;
+      width: 100%;
+      transform: scaleX(0) ;
+      height: 6px;
+      bottom: 0px;
+      left: 0;
+      background: rgb(255, 0, 255);
+      transform-origin: bottom left, top right;
+      transition: transform 0.35s ease-out;
+    
+    
+    }
+    .DOCUMENTS:hover:after, .COMMUNITY:hover:after, .ABOUT:hover:after, .STAKE:hover:after, .ALETHEO:hover:after{
+      transform: scaleX(1);
+      transform-origin: bottom right left ;
+    
+    }
+    
+    .DOCUMENTS:hover, .COMMUNITY:hover, .ABOUT:hover, .STAKE:hover, .ALETHEO:hover{
+    color: rgb(255, 0, 255);
+    
+    filter: drop-shadow(0 2em 2rem rgb(225, 0, 255));
+    font-size: 16px;
+    opacity: 1;
+    
+    }
+    .DOCUMENTS:active, .COMMUNITY:active, .ABOUT:active, .STAKE:active, .ALETHEO:active{
+      color: rgb(255, 0, 255);
+    font-size: 20px;
+    border: 4px solid rgb(255,0,255);
+    
+    
+    }
+    
+    
+    
+    .DOCUMENTS{
+      font-size: 10px;
+      top: 35px;
+      left: 600px;
+  
+    }
+    .COMMUNITY{
+      font-size: 10px;
+    
+      top: 35px;
+      left: 15px;
+    }.ABOUT{
+      font-size: 10px;
+    
+      top: 35px;
+      left: 180px;
+    }.STAKE{
+      font-size: 10px;
+    
+      top: 35px;
+      left: 500px;
+    }
+    .ALETHEO{
+      font-size: 10px;
+      top: 35px;
+      left: 320px;
+    }
+    
+    
+    
+    
+      .typing-demo{
+        display: inline-block;
+      position: relative;
+      top: -50%;
+      right: -34%;
+    outline: 10px solid;
+    text-decoration: none;
+    }
+    
+      .typing-demo a{
+    font-family: PhageRough;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 4px;
+    font-size: 2em;
+    text-decoration: none;
+      }
+    
+      #socialmedia{
+        border: 1px rgb(255, 0, 255);
+        width: 300px;
+        left: 370px;
+       top: 120px;
+        display: block;
+        background: redx;
+        position: relative;
+    
+      }
+    
+      #education{
+        left: 225px;
+        top: 170px;
+        width: 700px;
+        display: block;
+        position: relative;
+    
+     }
+    
+    #socialmedia h1{
+      
+    
+      text-align: ;
+    font-family: Cyber;
+    color: rgb(255, 0, 255);
+    
+    }
+    
+    #education h1{
+      color: white;
+      text-align: center;
+      display: inline-block;
+      font-family: Cyber;
+    color: rgb(255, 0, 255);
+    }
+    #education h3{
+      color: white;
+      text-align: center;
+      display: block;
+      color: rgb(255, 0, 255);
+    font-family: Phage;
+    }
+
+
+    #twitter{ 
+      width: 65px;
+      right: 30px;
+      position: absolute;
+      top: 2590px;
+    }
+    #telegram{ 
+      width: 60px;
+      right: 250px;
+  
+      position: absolute;
+      top: 2595px;
+    }
+    #medium{
+      width: 190px;
+      right: 110px;
+  
+      position: absolute;
+      top: 2575px;
+  
+    }
+      #discord{
+        right: 85px;
+  
+        width: 90px;
+        position: absolute;
+        top: 2600px;
+  
+      }
+  
+  
+  #shape1{
+    clip-path: polygon(4% 21%, 40% 20%, 46% 36%, 70% 36%, 100% 35%, 70% 35%, 46% 35%, 40% 19%, 5% 20%, 9% 1%, 44% 1%, 51% 18%, 69% 18%, 75% 1%, 88% 0, 100% 0, 100% 0, 87% 0, 75% 0, 69% 17%, 51% 17%, 44% 0, 9% 0);
+  position: absolute;
+  width: 50%;
+  background: rgb(255, 0, 255);
+  height: 50%;
+  
+  }
+  #shape2{
+    clip-path: polygon(17% 74%, 2% 73%, 0 74%, 17% 75%, 23% 100%, 69% 100%, 74% 31%, 20% 30%, 21% 31%, 74% 32%, 69% 99%, 23% 99%);
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  
+  background: rgb(255, 0, 255);
+  }
+  #shape3{
+    clip-path: polygon(2% 2%, 0 0, 3% 1%, 61% 2%, 66% 18%, 100% 19%, 100% 20%, 9% 18%, 11% 19%, 62% 20%, 66% 20%, 61% 3%);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+  
+  background: rgb(255, 0, 255);
+  }
+  
+  
+  }
+  #shape4{
+    clip-path: polygon(66% 52%, 2% 53%, 0 54%, 68% 53%, 66% 18%, 100% 19%, 98% 20%, 0 18%, 2% 19%, 65% 20%, 66% 20%, 68% 55%);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+  
+  background: rgb(255, 0, 255);
+  }
+  
+  #shape6{
+    clip-path: polygon(66% 52%, 2% 53%, 0 54%, 68% 53%, 66% 18%, 100% 19%, 98% 20%, 68% 19%, 2% 18%, 0 19%, 66% 20%, 68% 55%);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+  
+  background: rgb(255, 0, 255);
+  }
+  
+  
+  
+  
+    footer{
+      clip-path: polygon(13% 0, 77% 0, 78% 3%, 100% 3%, 100% 100%, 0 100%, 0 21%, 0 0, 3% 0, 8% 0);
+  height: 950px;
+   top: 2400px;
+      position: absolute;
+       left: 40px;
+      width: 880px;
+      background: url("../Images/footer6.png");
+      background-position: bottom right;
+    }
+
+
+
+    @font-face {
+      font-family: "Phage";
+      src: url("../fonts/PhageRegular.ttf");
+      }
+      @font-face {
+      font-family: "PhageRough";
+      src: url("../fonts/PhageRough.ttf");
+      }
+      @font-face {
+      font-family: "Cyber";
+      src: url("../fonts/Cyber.ttf");
+      }
+      @font-face {
+      font-family: "Blank";
+      src: url("../fonts/Blanka-Regular.ttf");
+      }
+      @font-face {
+      font-family: "Glitch1";
+      src: url("../fonts/CfGlitchCityRegular-L1vZ.ttf");
+      }
+      @font-face {
+      font-family: "Glitch2";
+      src: url("../fonts/GlitchInside-0Wjro.ttf");
+      }
+      @font-face {
+      font-family: "Glitch3";
+      src: url("../fonts/Glitch_Regular.ttf");
+      }
+      @font-face {
+      font-family: "Hacked";
+      src: url("../fonts/Hacked-KerX.ttf");
+      }
+      @font-face {
+      font-family: "100";
+      src: url("../fonts/100.ttf");
+      }
+      
+      @font-face {
+      font-family: "Aquire";
+      src: url("../fonts/Aquire-BW0ox.ttf");
+      }
+      
+      
+      @font-face {
+      font-family: "AquireBold";
+      src: url("../fonts/AquireBold-8Ma60.ttf");
+      }
+      
+      @font-face {
+      font-family: "AquireLight";
+      src: url("../fonts/AquireLight-YzE0o.ttf");
+      }
+      
+      @font-face{
+        font-family: "Noize";
+        src: url("../fonts/NoizeSportFreeVertionRegular-MVwye.ttf");
+      }
+      @font-face{
+        font-family: "FastHand";
+        src: url("../fonts/FastHand-lgBMV.ttf");
+      }
+      @font-face{
+        font-family: "Chopsic";
+        src: url("../fonts/Chopsic-K6Dp.ttf");
+      }
+    }

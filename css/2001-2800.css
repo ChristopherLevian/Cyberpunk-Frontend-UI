@@ -1,0 +1,1463 @@
+
+    @media screen
+    and (min-device-width: 2001px)
+    and (max-device-width: 2800px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+      
+      #mobiledapp{
+        display:none;
+      }
+      #mobilefooter{
+        display: none;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        border: 1px solid blue;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #070000;
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(255, 0, 234);
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 0, 255, 0.65);
+      }
+
+
+  :root {
+    --gap-horizontal: 10px;
+    --gap-vertical: 5px;
+    --time-anim: 4s;
+    --delay-anim: 2s;
+    --blend-mode-1: none;
+    --blend-color-1: transparent;
+    --yellow-color: purple;
+    --border-color: #000000;
+  }
+
+
+
+
+
+        html{
+
+          width: 2650px;
+          min-width: 10%;
+          max-width: 2250%;
+       overflow: auto;
+          height: 3000px;
+
+          }
+          
+           body{  background: url("../images/bots888.gif"); 
+            height: 100%;
+
+           background-attachment: fixed;
+          background-size: 90%;
+          background-position: center;
+          background-repeat: repeat;
+          min-width: 10%;
+          max-width: 1000%;
+
+          }
+
+         
+          *{
+            box-sizing: border-box;
+          }
+       
+#uppernav #ONEx{
+width: 35px;
+top: 18px;
+left: 790px;
+position: absolute;
+min-width: ;
+max-width: ;
+}
+#uppernav #TWOx{
+  width: 120px;
+  left: 1550px;
+  position: absolute;
+  top: 5px;
+  min-width: ;
+  max-width: ;
+}
+#uppernav #THREEx{
+  width: 85px;
+  left: 2440px;
+  position: absolute;
+  top: 10px;
+  min-width: ;
+  max-width: ;
+}
+#uppernav #FOURx{
+  width: 80px;
+  left: 1200px;
+  position: absolute;
+  top: 0px;
+  min-width: ;
+  max-width: ;
+}
+#uppernav #FIVEx{
+  width: 40px;
+  left: 1915px;
+  position: absolute;
+  top: 10px;
+  min-width: ;
+  max-width: ;
+}
+    #uppernav{
+
+      overflow:hidden;
+      position: fixed;
+      -webkit-animation: scale-up-ver-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-ver-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    display: block;
+    /* background: rgba(0, 0, 0, 0.411); */
+    background: url("../images/samuraixd.jpg"); 
+    min-width: 1200px;
+
+    top: -6px;
+    max-width:2950px;
+    max-height: 1050px;
+    min-width: ;
+    background-size: cover;
+ 
+    width: 3440px;
+    -o-width: 205%;
+    height: 100px;
+    left: -400px;
+    opacity: ;
+    }
+  
+    
+     #uppernav .img{ /* UPPER PART*/
+       position: absolute;
+      right: -200px;
+       
+       display: block;
+       width:2920px;
+       height: 50px;
+       max-width: 3880px;
+    max-height: 800px;
+    top: 5px;
+    background: rgb(255, 0, 255);
+    opacity: 0.9;
+     filter: drop-shadow(0 0 0.75rem crimson); 
+     -webkit-clip-path: polygon(0 0, 0 1%, 30% 1%, 40% 1%, 41% 6%, 55% 6%, 56% 1%, 100% 1%, 100% 0, 90% 0, 80% 0, 9% 0);
+    clip-path: polygon(0 0, 0 1%, 30% 1%, 40% 1%, 41% 6%, 55% 6%, 56% 1%, 100% 1%, 100% 0, 90% 0, 80% 0, 9% 0);
+  
+    min-width: 10%;
+    max-width: ;
+  }
+   
+    #uppernav .img3{ /* \----------*/
+      position: absolute;
+      
+      left: 1480px;
+      top: 70px;
+      max-width:4000px;
+    max-height: 140px;
+      display: block;
+       width:880px;
+       height: 80px;
+           z-index: 100;
+           background: rgb(255, 0, 255);
+
+       opacity: 1;
+       /* play with this it makes it look awesome */
+     filter: drop-shadow(0 0 40rem purple); 
+ 
+     clip-path: polygon(23% 20%, 100% 21%, 100% 21%, 6% 23%, 2% 0, 6% 21%);
+     min-width: 10%;
+     max-width: ;
+     transform: rotateY(180deg);
+    }
+    #uppernav .img4{ /* ----------/ */
+      position: absolute;
+      left: 925px;
+      max-width:4240px;
+    max-height: 140px;
+    top: 70px;
+    display: block;
+      width:880px;
+      height: 80px;
+       opacity: 1;
+       background: rgb(255, 0, 255);
+       z-index: 100;
+       filter: drop-shadow(0 0 40rem purple); 
+   
+    clip-path: polygon(23% 20%, 100% 21%, 100% 21%, 6% 23%, 2% 0, 6% 21%);
+    min-width: 10%;
+          max-width: ;
+    }
+     #uppernav .img5{ /* -----------\*/
+      position: absolute;
+      z-index: 100;
+      background: rgb(255, 0, 255);
+
+      left: -440px;
+      top: 10px;
+      display: block;
+       width:1380px;
+       height: 80px;
+       max-width: 4350px;
+       max-height: 100px;;
+       opacity: 0.8;
+ 
+     clip-path: polygon(25% 0%, 100% 0, 100% 3%, 3% 3%, 0 32%, 3% 0);
+     min-width: 10%;
+     max-width: ;
+    transform: rotateY(180deg);
+    }
+    #uppernav .img6{ /* /========== */
+      z-index: 20;
+      background: rgb(255, 0, 255);
+
+      position: absolute;
+      left: 2340px;
+      top: 10px;
+      display: block;
+       width:1380px;
+       height: 80px;
+       max-width: 4350px;
+       max-height: 600px;
+       opacity: 0.8;
+       filter: drop-shadow(0 0 40rem purple); 
+     -webkit-clip-path: polygon(100% 0, 100% 0, 14% 4%, 0 14%, 14% 0);
+     z-index: 100;
+     min-width: 10%;
+     max-width: ;
+     clip-path: polygon(25% 0%, 100% 0, 100% 3%, 3% 3%, 0 32%, 3% 0);
+
+    } 
+
+   
+    #uppernav .img7{ /* rIGHT */
+        position: absolute;
+        background: rgb(255, 0, 255);
+        left: 2295px;
+        top: 95px;
+        display: block;
+        width: 880px;
+           height: 80px;
+           max-width: 700px;
+           max-height: 1000px;
+           opacity: 0.8;
+           z-index: 100;
+       -webkit-clip-path: polygon(27% 0, 44% 59%, 90% 100%, 45% 58%);
+       clip-path: polygon(0 0, 100% 0, 100% 1%, 0 1%);
+       transform: rotate(0deg);
+       min-width: 10%;
+       max-width: ;
+      }
+      
+      #uppernav .img8{ /* LEFT */
+        position: absolute;
+        background: rgb(255, 0, 255);
+
+        left: 400px;
+        top: 95px;
+        display: block;
+         width:580px;
+         height: 80px;
+         max-width: 700px;
+         max-height: 1400px;
+         opacity: ;
+         z-index: 100;
+         min-width: 10%;
+         max-width: ;
+         filter: drop-shadow(0 0 40rem purple); 
+       -webkit-clip-path: polygon(25% 0, 44% 59%, 87% 100%, 45% 58%);
+       clip-path: polygon(0 0, 100% 0, 100% 1%, 0 1%);
+       transform: rotate(0deg);
+      }
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+      .hero {
+        min-width: 1%;
+        max-width: 1000%;
+        font-size: clamp(140px, 10vw, 100px);
+        line-height: 1;
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        z-index: 2;
+        letter-spacing: 20px;
+      font-family: PhageRough;
+        /* Bright things in dark environments usually cast that light, giving off a glow */
+        filter: drop-shadow(0 0 0.75rem rgb(255, 0, 221));      
+    }
+    #aletheo3 h1{
+      font-size: 24px;
+ display: inline;
+ border: 1px solid rgb(225, 0, 255);
+ color: rgb(247, 0, 255);
+ font-family: PhageRough;
+ position: absolute;
+ left: 50%;
+ top: 310px;
+    }
+      .demo {
+        height: 100px;
+        min-width: ;
+        max-width: ;
+        background: rgb(0, 255, 242);
+      }
+      
+      .layers {
+        position: relative;
+      }
+      
+      .layers::before,
+      .layers::after {
+        content: attr(data-text);
+        position: absolute;
+        width: 110%;
+        z-index: -1;
+      }
+      
+      .layers::before {
+        top: 10px;
+        left: 15px;
+        color: #28dae0;
+      }
+      
+      .layers::after {
+        top: 5px;
+        left: -10px;
+        color: #1bc7fb;
+      }
+      
+  
+      .paths {
+        animation: paths 5s step-end infinite;
+      }
+      
+      
+      
+      .opacity {
+        animation: opacity 5s step-end infinite;
+      }
+      
+      
+      .font {
+        animation: font 7s step-end infinite;
+      }
+      
+      
+  
+  
+  
+      
+    .layers {
+      position: relative;
+    }
+    
+    .layers::before,
+    .layers::after {
+      content: attr(data-text);
+      position: absolute;
+      width: 110%;
+      z-index: -1;
+    }
+    
+    .layers::before {
+      top: 10px;
+      left: 15px;
+      color: #aa6000;
+    }
+    
+    .layers::after {
+      top: 5px;
+      left: -10px;
+      color: #1bc7fb;
+    }
+  
+    .glitch span {
+      animation: paths 5s step-end infinite;
+    }
+    
+    .glitch::before {
+      animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+        font 8s step-end infinite, movement 10s step-end infinite;
+    }
+    
+    .glitch::after {
+      animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+        font 7s step-end infinite, movement 8s step-end infinite;
+    }
+    
+    .hero-container {
+      position: absolute;
+      padding: 200px 10px;
+      top: -120px;
+      right: 34%;
+      text-align: center;
+      min-width: 1%;
+  
+    }
+    
+    .environment {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      right: 0;
+     z-index: -50;
+     padding: 10px;
+      bottom: 0;
+      opacity: 0.9;
+      filter: blur(0px);
+      background: transparent;
+      min-width: 10%;
+  
+      repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  
+  
+    .text-flicker-out-glow {
+      -webkit-animation: text-flicker-out-glow 2.5s linear both;
+          animation: text-flicker-out-glow 2.5s linear both;
+      }
+  
+
+    #mobilenav{
+      display: none;  }
+    :root {
+      --gap-horizontal: 10px;
+      --gap-vertical: 5px;
+      --time-anim: 4s;
+      --delay-anim: 2s;
+      --blend-mode-1: none;
+      --blend-color-1: transparent;
+      --yellow-color: purple;
+      --border-color: #000000;
+    }
+  
+
+    #thedapp{
+      min-width: 10%;
+ 
+      position: absolute;
+      display: flex;
+      flex-direction: row;  /* | row-reverse | column | column-reverse; */
+      justify-content:  space-around;
+      align-items: normal;
+      align-content:  space-evenly;
+   gap: 10px 20px; /* row-gap column gap */
+   row-gap: 20px;
+   column-gap: 20px;
+      width: 2340px;
+      height: 650px;
+      right: 65px;
+ 
+      top: 1394px;
+ 
+      border: 0px solid white;
+      filter:drop-shadow();
+      padding: 45px;
+ z-index: 1000000;
+
+
+ background: linear-gradient(0deg, rgb(0, 0, 0) 75%, rgb(0, 0, 0) 100%);
+  /* background: black; 
+  background: url("../images/x999.gif"); 
+  background-repeat: repeat; */
+ opacity: 1;
+      border-radius: 1px;
+     
+      clip-path: polygon(0 23%, 0 0, 17% 0, 19% 3%, 31% 3%, 33% 9%, 50% 9%, 68% 9%, 70% 3%, 82% 3%, 84% 0, 100% 0, 100% 22%, 99% 26%, 99% 68%, 100% 72%, 100% 100%, 83% 100%, 82% 97%, 18% 97%, 17% 100%, 0 100%, 0 72%, 1% 69%, 1% 26%);
+      -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           min-width: ;
+           max-width: ;
+          }
+ 
+     #thedapp3{ /*eksw */
+      position: absolute;
+      display: flex;
+      flex-direction: row;  /* | row-reverse | column | column-reverse; */
+      justify-content:  space-around;
+      align-items: normal;
+      align-content:  space-evenly;
+   gap: 10px 20px; /* row-gap column gap */
+   row-gap: 10px;
+   column-gap: 10px;
+   width: 2350px;
+      height: 684px;
+      right: 60px;
+ 
+      top: 1376px;
+      min-width: ;
+      max-width: ;
+      filter:drop-shadow();
+      padding: 45px;
+ z-index: 100000;
+ 
+      border-radius: 1px;
+     
+      background: linear-gradient(0deg, rgb(255, 0, 255) 75%, rgb(0, 0, 0) 100%);
+ 
+      clip-path: polygon(0 23%, 0 0, 17% 0, 19% 3%, 31% 3%, 33% 9%, 50% 9%, 68% 9%, 70% 3%, 82% 3%, 84% 0, 100% 0, 100% 22%, 99% 26%, 99% 68%, 100% 72%, 100% 100%, 83% 100%, 82% 97%, 18% 97%, 17% 100%, 0 100%, 0 72%, 1% 69%, 1% 26%);
+      -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+     }
+ 
+   
+     #thedapp5{ /*   mesa */
+      position: absolute;
+      display: flex;
+      flex-direction: row;  /* | row-reverse | column | column-reverse; */
+      justify-content:  space-around;
+      align-items: normal;
+      align-content:  space-evenly;
+   gap: 10px 20px; /* row-gap column gap */
+   row-gap: 10px;
+   column-gap: 10px;
+   width: 2368px;
+      height: 662px;
+      right: 56px;
+ 
+      top: 1388px;
+ 
+      opacity: 0.4;
+      min-width: ;
+      max-width: ;
+ 
+      background: rgb(247, 0, 255);
+      z-index: 1000000;
+
+ clip-path: polygon(0 23%, 0 0, 17% 0, 19% 3%, 31% 3%, 33% 9%, 68% 9%, 68% 9%, 70% 3%, 82% 3%, 84% 0, 100% 0, 100% 22%, 99% 26%, 99% 68%, 100% 72%, 100% 100%, 83% 100%, 82% 97%, 18% 97%, 17% 100%, 0 100%, 0 72%, 1% 69%, 1% 26%);
+ -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+           animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+ 
+     }
+     #dapp5{
+      position: absolute;
+      display: block;
+      flex-direction: row;  /* | row-reverse | column | column-reverse; */
+      justify-content:  space-around;
+      align-items: normal;
+      align-content:  space-evenly;
+   gap: 10px 20px; /* row-gap column gap */
+   row-gap: 10px;
+   column-gap: 10px;
+   width: 2360px;
+      height: 694px;
+      right: 55px;
+ 
+      top: 1372px;
+      min-width: ;
+      max-width: ;
+      filter:drop-shadow();
+      padding: 5px;
+      border-radius: 0px;
+  
+      background: rgb(225, 0, 255);
+      z-index: 50099;
+      box-shadow: 0px 0px 80px 20px rgb(255, 0, 234);
+ clip-path: polygon(0 23%, 0 0, 17% 0, 19% 3%, 31% 3%, 33% 9%, 68% 9%, 68% 9%, 70% 3%, 82% 3%, 84% 0, 100% 0, 100% 22%, 99% 26%, 99% 68%, 100% 72%, 100% 100%, 83% 100%, 82% 97%, 18% 97%, 17% 100%, 0 100%, 0 72%, 1% 69%, 1% 26%);
+ 
+ 
+     }
+ 
+     #theapps{
+       display:flex;
+       opacity: 1;
+     }
+ 
+ 
+
+
+ #aletheo2{
+  position: absolute;
+  border: 2px solid rgb(255,0,255);
+  width: 420px;
+  height: 40px;
+  top: 360px;
+  left: 1030px;
+  z-index: 100000;
+  display: block;
+}
+#aletheo2 h1{
+  
+  font-size: 20px;
+  position: absolute;
+  left: 400px;
+ display: inline;
+ border: 1px solid rgb(225, 0, 255);
+ color: rgb(247, 0, 255);
+ font-family: PhageRough;
+ letter-spacing: 1px;
+}
+
+
+#imgs{
+  width: 80px;
+  z-index: 1000000000000000000000;
+  display: block;
+    }
+
+
+
+    .DOCUMENTS, .COMMUNITY, .ABOUT, .STAKE, .ALETHEO{
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 18px;
+      padding-right:  18px;
+      font-size: 10px;
+      margin: 10px;
+      font-family: Noize;
+
+      opacity: 1; 
+    color: rgb(255, 0, 255);
+    
+    position: fixed;
+    letter-spacing: 6px;
+    }
+    
+    .DOCUMENTS:after, .COMMUNITY:after, .ABOUT:after, .STAKE:after, .ALETHEO:after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0) ;
+      height: 6px;
+      bottom: 0px;
+      left: 0;
+      background: rgb(255, 0, 255);
+      transform-origin: bottom left, top right;
+      transition: transform 0.35s ease-out;
+    
+    
+    }
+    .DOCUMENTS:hover:after, .COMMUNITY:hover:after, .ABOUT:hover:after, .STAKE:hover:after, .ALETHEO:hover:after{
+      transform: scaleX(1);
+      transform-origin: bottom right left ;
+    
+    }
+    
+    .DOCUMENTS:hover, .COMMUNITY:hover, .ABOUT:hover, .STAKE:hover, .ALETHEO:hover{
+    color: rgb(255, 0, 255);
+    
+    filter: drop-shadow(0 2em 2rem rgb(225, 0, 255));
+    font-size: 20px;
+    opacity: 1;
+    
+    }
+    .DOCUMENTS:active, .COMMUNITY:active, .ABOUT:active, .STAKE:active, .ALETHEO:active{
+      color: rgb(255, 0, 255);
+    font-size: 20px;
+    border: 4px solid rgb(255,0,255);
+    
+    
+    }
+    
+    
+    
+    .DOCUMENTS{
+      font-size: 16px;
+      top: 35px;
+      left: 1970px;
+    
+    }
+    .COMMUNITY{
+      font-size: 16px;
+    
+      top: 35px;
+      left: 285px;
+    }.ABOUT{
+      font-size: 16px;
+    
+      top: 35px;
+      left: 1470px;
+    }.STAKE{
+      font-size: 16px;
+    
+      top: 35px;
+      left: 765px;
+    }
+    .ALETHEO{
+      font-size: 16px;
+      top: 35px;
+      left: 1120px;
+    }
+    
+    
+    
+    
+      .typing-demo{
+        display: inline-block;
+      position: relative;
+      top: -50%;
+      right: -34%;
+    outline: 10px solid;
+    text-decoration: none;
+    }
+    
+      .typing-demo a{
+    font-family: PhageRough;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 4px;
+    font-size: 2em;
+    text-decoration: none;
+      }
+    
+      #socialmedia{
+        border: 1px rgb(255, 0, 255);
+        width: 800px;
+        left: 1420px;
+        bottom: 30px;
+        display: block;
+        background: redx;
+        position: relative;
+    
+      }
+    
+      #education{
+        left: 850px;
+        bottom: 90px;
+        width: 800px;
+        display: block;
+        position: relative;
+    
+     }
+    
+    #socialmedia h1{
+      
+    
+      text-align: center;
+    font-family: Cyber;
+    color: rgb(255, 0, 255);
+    
+    }
+    
+    #education h1{
+      color: white;
+      text-align: center;
+      display: inline-block;
+      font-family: Cyber;
+    color: rgb(255, 0, 255);
+    }
+    #education h3{
+      color: white;
+      text-align: center;
+      display: block;
+      color: rgb(255, 0, 255);
+    font-family: Phage;
+    }
+
+ #education h3:hover{
+    border-bottom: solid rgb(255, 0, 255) 2px;
+ }
+    #twitter{ 
+      width: 65px;
+      right: 240px;
+      position: absolute;
+      top: 3070px;
+    }
+
+    #telegram{ 
+      width: 60px;
+      right: 400px;
+  
+      position: absolute;
+      top: 3070px;
+    }
+    #medium{
+      width: 190px;
+      right: 260px;
+  
+      position: absolute;
+      top: 3055px;
+  
+    }
+      #discord{
+        right: 150px;
+  
+        width: 90px;
+        position: absolute;
+        top: 3080px;
+  
+      }
+  
+  
+  #shape1{
+    clip-path: polygon(4% 21%, 40% 20%, 46% 36%, 70% 36%, 100% 35%, 70% 35%, 46% 35%, 40% 19%, 5% 20%, 9% 1%, 44% 1%, 51% 18%, 69% 18%, 75% 1%, 88% 0, 100% 0, 100% 0, 87% 0, 75% 0, 69% 17%, 51% 17%, 44% 0, 9% 0);
+  position: absolute;
+  width: 50%;
+  background: rgb(255, 0, 255);
+  height: 50%;
+  
+  }
+  #shape2{
+    clip-path: polygon(17% 74%, 2% 73%, 0 74%, 17% 75%, 23% 100%, 69% 100%, 74% 31%, 20% 30%, 21% 31%, 74% 32%, 69% 99%, 23% 99%);
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  
+  background: rgb(255, 0, 255);
+  }
+  #shape3{
+    clip-path: polygon(2% 2%, 0 0, 3% 1%, 61% 2%, 66% 18%, 100% 19%, 100% 20%, 9% 18%, 11% 19%, 62% 20%, 66% 20%, 61% 3%);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+  
+  background: rgb(255, 0, 255);
+  }
+  
+  
+  }
+  #shape4{
+    clip-path: polygon(66% 52%, 2% 53%, 0 54%, 68% 53%, 66% 18%, 100% 19%, 98% 20%, 0 18%, 2% 19%, 65% 20%, 66% 20%, 68% 55%);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+  
+  background: rgb(255, 0, 255);
+  }
+  
+  #shape6{
+    clip-path: polygon(66% 52%, 2% 53%, 0 54%, 68% 53%, 66% 18%, 100% 19%, 98% 20%, 68% 19%, 2% 18%, 0 19%, 66% 20%, 68% 55%);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+  
+  background: rgb(255, 0, 255);
+  }
+  
+  
+  
+  
+    footer{
+      clip-path: polygon(13% 0, 77% 0, 78% 3%, 100% 3%, 100% 100%, 0 100%, 0 21%, 0 0, 3% 0, 8% 0);
+  height: 650px;
+   top: 3000px;
+      position: absolute;
+      width: 100%;
+      background: url("../Images/footer6.png");
+      background-position: bottom right;
+    }
+
+    .newone{
+      width: 550px;
+      height: 580px;
+      padding-left: 10px;
+      position: absolute;
+      display: block;
+      background: ;
+      top: 50px;
+      right: 200px;
+    
+    }
+
+  
+    #extensionsX{
+    width: 400px;
+   top: 30px;
+   height: 70px;
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;  
+   
+    }
+    
+    #extensionsXX{
+    width: 400px;
+   top: 140px;
+   height: 70px;
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;  
+    }
+    
+    #extensionsXXX{
+    width: 400px;
+   top: 260px;
+   height: 70px;
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;  
+    }
+    #rewardsx{
+    width: 400px;
+  
+    height: 70px;
+  
+  
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;
+    top: 360px;
+    }
+    #exchangesx{
+    width: 400px;
+  
+    height: 70px;
+    background:rgb(0, 0, 0);
+    display:block;
+    position: absolute;  
+    top: 460px;
+    }
+
+    #extensionsX:hover, #extensionsXX:hover .Shapex, #extensionsXXX:hover, #rewardsx:hover, #exchangesx:hover{
+      transform:  scaleX(1.5);
+    }
+
+    .Shapex{
+      top: 0px;
+      width: 400px;
+      height: 70px;
+      display:block;
+      background: rgba(0, 0, 0, 0);
+      position: absolute;
+    }
+    .upperxx{
+      width: 400px;
+     top: 3PX;
+      left: -18px;
+      position: absolute;
+      height: 80px;
+      background: rgb(255, 0, 234);
+      clip-path: polygon(5% 2%, 74% 3%, 73% 4%, 6% 5%, 6% 48%, 5% 44%);
+       }
+    .upper2xx{
+      width: 400px;
+      top: 0px;
+      position: absolute;
+      height: 80px;
+      background: rgb(255, 0, 234);
+  
+      clip-path: polygon(92% 3%, 94% 0, 100% 0, 100% 10%, 100% 100%, 99% 100%, 99% 10%, 84% 10%, 63% 10%, 0 9%, 0 8%, 66% 8%, 72% 0, 80% 0, 82% 3%);
+    }
+    .downxx{
+      width: 280px;
+      position: absolute;
+     top: 0px;
+      height: 80px;
+      background: rgb(225, 0, 255);
+      opacity: 1;
+      clip-path: polygon(73% 94%, 87% 95%, 92% 95%, 92% 76%, 92% 96%, 74% 96%, 53% 95%, 27% 95%, 25% 100%, 14% 100%, 12% 95%, 4% 94%, 2% 100%, 0 100%, 0 93%);
+    }
+     .middlex{
+      width: 280px;
+      position: absolute;
+     top: 24px;
+      height: 40px;
+      background: rgb(225, 0, 255);
+      opacity: 0.5;
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .wordsxx{
+      
+    }
+    .imagesxx{
+      
+    }
+    .linesxx{
+      
+    }
+    .class{
+      
+    }
+    #timex{
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  display: block;
+  color: rgb(247, 0, 255);
+    }
+    #timex h3{
+      font-size: 40px;
+      font-family: Cyber;
+      Color: rgb(217, 0, 255);
+    }
+    #datex{
+      width: 420px;
+  height: 100px;
+  position: absolute;
+  display: block;
+  color: rgb(247, 0, 255);
+  left: 100px;
+    }
+  
+    #datex h3{
+      font-family: Cyber;
+      Font-size: 40px;
+      color: rgb(247, 0, 255);
+    }
+    .arrowxx img{
+      width: 80px;
+      top: 12px;
+      position: absolute;
+      left: 200px;
+    }
+    #imageXXX img{
+  
+    position: absolute;
+    width: 80px;
+    height: 500px;
+    left: 1550px;
+    top: 80px;
+    }
+  
+    #imageXX img{
+      position: absolute;
+      width: 600px;
+      top: 390px;
+      left: 1730px;
+      height: 40px;
+      transform: rotateZ(90deg);
+    }
+    #imageXXXX img{
+      position: absolute;
+      width: 10px;
+      top: 300px;
+      left: 60px;
+      transform: rotateY(180deg);
+    }
+    #imageXXXXX img{
+  opacity: 0.5;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 1970px;
+  top: 25px;
+  transform: rotateY(180deg);
+  }
+    .imagesxx img{
+      width: 60px;
+      position: absolute;
+     right: 20px;
+     top: 15px;
+     border: 1px solid rgb(255, 0, 255);
+     padding: 8px;
+  
+    }
+  
+    .wordsxx a{
+      font-size: 18px;
+      position: absolute;
+      top: 34px;
+      left: 25px;
+      font-family: "100";
+      letter-spacing: 2px;
+      color: white;
+      
+    } 
+    #connector{
+    left: 1000px;
+  width: 600px;
+  height: 250px;
+  position: absolute;
+  background: rgb(255, 0, 234);
+  clip-path: polygon(39% 31%, 0 31%, 0 32%, 39% 33%, 45% 1%, 100% 1%, 100% 0, 45% 0);
+  top: 470PX;
+  opacity: 0.6;
+  }
+  
+  #connector1{
+    left: 860px;
+  width: 700px;
+  height: 280px;
+  position: absolute;
+  background: rgb(255, 0, 234);
+  clip-path: polygon(43% 22%, 28% 22%, 28% 21%, 43% 21%, 62% 99%, 100% 99%, 100% 100%, 62% 100%);
+  top: 280PX;
+  }
+  
+  #comparison img{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 310px;
+    top: 35px;
+    }
+     #line1{
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 480px;
+    top: 220px; 
+    background: rgb(255, 0, 255);
+  clip-path: polygon(18% 50%, 19% 50%, 100% 51%, 100% 52%, 19% 51%, 1% 83%, 1% 83%);
+  
+  transform: rotateZ(180deg);
+    }
+     #line2{
+    position: absolute;
+    width: 170px;
+    height: 70px;
+    left: 605px;
+    top: 220px; 
+    background: rgb(255, 0, 255);
+    clip-path: polygon(18% 50%, 19% 50%, 100% 51%, 100% 52%, 19% 51%, 1% 83%, 1% 83%);
+  
+  
+  
+    }
+    #AVALACHEICON img{
+      width: 70px;
+      height: 60px;
+      top: 30px;
+      border: 1px solid rgb(255, 0, 255);
+      order: 6;
+      position: absolute;
+      left: 740px;
+      align-self: auto;
+    flex-shrink: 3;
+    flex-grow: 4;  }
+  
+  #AVALACHE .LETicon img{
+    width: 70px;
+  height: 70px;
+  top: 30px;
+  border: 1px solid rgb(255, 0, 255);
+  
+  left: 5px;
+  position: absolute;
+  order: 2;
+      align-self: auto;
+    flex-shrink: 3;
+    flex-grow: 4;
+  }
+    #AVALACHE .LETpriceA{
+      order: 3;
+      align-self: auto;
+    flex-shrink: 3;
+    flex-grow: 4;
+    }
+    .LETpriceA a{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    
+    }
+  
+    .LETpriceA h2{
+      font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+  
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    }
+    #AVALACHE .LETliquidityA a{
+        font-family: Cyber;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    padding-left: 10px;
+    border-width: 6px;
+    left: 700px;
+    }
+  
+    #AVALACHE .LETliquidityA h3{
+      font-family: Cyber;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    padding-left: 10px;
+    border-width: 6px;
+    left: 380px;
+    }
+    #AVALACHE .UPPRICEA img{
+      position: absolute;
+    left: 190px;
+    top: 100px;
+    width: 60px;
+    }
+    #AVALACHE .DOWNPRICEA img{
+      position: absolute;
+    left: 90px;
+    top: 100px;
+    width: 60px;
+   }
+    .UPPRICEA a{
+  font-size: 28px;
+  font-family: Glitched;
+  color: white;
+  position: absolute;
+  left: 250px;
+  top: 110px;
+  }
+  
+  .DOWNPRICEA a{
+    font-size: 28px;
+  font-family: Glitched;
+  color: white;
+  position: absolute;
+  left: 15px;
+  top: 110px;
+ }
+ #comparison2 img{
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  left: 310px;
+  top: 35px;
+  }
+   #line3{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  left: 480px;
+  top: 430px; 
+  background: rgb(255, 0, 255);
+clip-path: polygon(18% 50%, 19% 50%, 100% 51%, 100% 52%, 19% 51%, 1% 83%, 1% 83%);
+
+transform: rotateZ(180deg);
+  }
+   #line4{
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  left: 605px;
+  top: 430px; 
+  background: rgb(255, 0, 255);
+  clip-path: polygon(18% 50%, 19% 50%, 100% 51%, 100% 52%, 19% 51%, 1% 83%, 1% 83%);
+
+
+
+  }
+  #FANTOMICON img{
+    width: 70px;
+    height: 60px;
+    order: 6;
+    position: absolute;
+    left: 740px;
+    top: 30px;
+    align-self: auto;
+  flex-shrink: 3;
+  flex-grow: 4;  
+  border: 1px solid rgb(255, 0, 255);
+
+}
+
+#FANTOM .LETicon img{
+  width: 70px;
+height: 70px;
+left: 5px;
+top: 30px;
+border: 1px solid rgb(255, 0, 255);
+
+order: 2;
+position: absolute;
+  flex-shrink: 3;
+  flex-grow: 4;
+}
+  #FANTOM .LETpriceF{
+    order: 3;
+    align-self: auto;
+  flex-shrink: 3;
+  flex-grow: 4;
+  }
+  .LETpriceF a{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  
+  }
+
+  .LETpriceF h2{
+    font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  }
+  #FANTOM .LETliquidityF a{
+      font-family: Cyber;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 120px;
+  padding-left: 10px;
+  border-width: 6px;
+  left: 700px;
+ 
+
+  }
+  #FANTOM .LETliquidityF h3{
+       font-family: Cyber;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 90px;
+  padding-left: 10px;
+  border-width: 6px;
+  left: 380px;
+ }
+  #FANTOM .UPPRICEF img{
+    position: absolute;
+  left: 190px;
+  top: 100px;
+  width: 60px;
+  }
+  #FANTOM .DOWNPRICEF img{
+    position: absolute;
+  left: 90px;
+  top: 100px;
+  width: 60px;
+ }
+  .UPPRICEF a{
+font-size: 28px;
+font-family: Glitched;
+color: white;
+position: absolute;
+left: 250px;
+top: 110px;
+
+}
+
+.DOWNPRICEF a{
+  font-size: 28px;
+font-family: Glitched;
+color: white;
+position: absolute;
+left: 15px;
+top: 110px;
+}
+#AVALACHE{
+  position: absolute;
+  display: inline-block;
+
+background: rgba(255, 0, 255, 0.109);
+border: 1px solid rgb(255, 0, 255);
+
+  width: 950px;
+  height: 200px;
+  left: -1490px;
+  top: 135px;
+  }
+
+  #FANTOM{
+    position: absolute;
+    display:block;
+  align-items: baseline;
+  align-content: flex-start;
+  background: rgba(255, 0, 255, 0.109);
+border: 1px solid rgb(255, 0, 255);
+  gap: 10px;
+gap: 10px 20px; /* row-gap column gap */
+row-gap: 10px;
+column-gap: 20px;
+justify-content: baseline;
+flex-flow: ;
+flex-direction: row;
+
+flex-wrap: nowrap;
+  width: 950px;
+  height: 200px;
+  left: 100px;
+  top: 400px;
+  }
+    @font-face {
+      font-family: "Phage";
+      src: url("../fonts/PhageRegular.ttf");
+      }
+      @font-face {
+      font-family: "PhageRough";
+      src: url("../fonts/PhageRough.ttf");
+      }
+      @font-face {
+      font-family: "Cyber";
+      src: url("../fonts/Cyber.ttf");
+      }
+      @font-face {
+      font-family: "Blank";
+      src: url("../fonts/Blanka-Regular.ttf");
+      }
+      @font-face {
+      font-family: "Glitch1";
+      src: url("../fonts/CfGlitchCityRegular-L1vZ.ttf");
+      }
+      @font-face {
+      font-family: "Glitch2";
+      src: url("../fonts/GlitchInside-0Wjro.ttf");
+      }
+      @font-face {
+      font-family: "Glitch3";
+      src: url("../fonts/Glitch_Regular.ttf");
+      }
+      @font-face {
+      font-family: "Hacked";
+      src: url("../fonts/Hacked-KerX.ttf");
+      }
+      @font-face {
+      font-family: "100";
+      src: url("../fonts/100.ttf");
+      }
+      
+      @font-face {
+      font-family: "Aquire";
+      src: url("../fonts/Aquire-BW0ox.ttf");
+      }
+      
+      
+      @font-face {
+      font-family: "AquireBold";
+      src: url("../fonts/AquireBold-8Ma60.ttf");
+      }
+      
+      @font-face {
+      font-family: "AquireLight";
+      src: url("../fonts/AquireLight-YzE0o.ttf");
+      }
+      
+      @font-face{
+        font-family: "Noize";
+        src: url("../fonts/NoizeSportFreeVertionRegular-MVwye.ttf");
+      }
+      @font-face{
+        font-family: "FastHand";
+        src: url("../fonts/FastHand-lgBMV.ttf");
+      }
+      @font-face{
+        font-family: "Chopsic";
+        src: url("../fonts/Chopsic-K6Dp.ttf");
+      }
+    }
